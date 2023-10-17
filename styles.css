@@ -1,0 +1,91 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: auto;
+    max-width: 1400px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    color: rgb(205, 169, 39);
+    padding-right: 10%;
+}
+
+nav a {
+    cursor: pointer;
+    color: rgb(205, 169, 39);
+    text-decoration: none;
+}
+
+.list-nav {
+    list-style: none;
+}
+
+.section-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    background-image: url('./images/backgroud-wallpaper.jpg');
+    background-size: cover;
+}
+
+.section-intro h1 {
+    color: rgb(205, 169, 39);
+    font-size: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(205, 169, 39, 0.8);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.contact-booking h2 {
+    color: black;
+    font-size: 3.5em;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding-bottom: 20px;
+    font-style: italic;
+    border-bottom: 2px solid black;
+}
+
+.contact-precisions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.contact-precisions p {
+    margin: 5px 0;
+}
+

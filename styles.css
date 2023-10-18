@@ -19,11 +19,20 @@ header {
     background-color: black;
 }
 
+.logo-header {
+    padding-left: 10%;
+}
+
 nav {
     display: flex;
     align-items: center;
     color: rgb(205, 169, 39);
     padding-right: 10%;
+}
+
+nav ul {
+    display: flex;
+    gap: 30%;
 }
 
 nav a {
@@ -72,9 +81,9 @@ nav a {
 .slogan {
     display: flex;
     justify-content: center;
-    width: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     font-style: italic;
+    font-size: 1.5em;
     border-bottom: 2px solid black;
 }
 

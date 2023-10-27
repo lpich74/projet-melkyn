@@ -24,6 +24,10 @@ header {
     padding-left: 10%;
 }
 
+.hidden {
+    display: none;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -51,6 +55,31 @@ nav a:hover {
 
 .list-nav {
     list-style: none;
+}
+
+.list-roster {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    cursor: pointer;
+}
+
+.list-roster li {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(18, 19, 19);
+    margin: 0;
+    padding: 10px;
+    border: 1px solid rgb(205, 169, 39);
+}
+
+#roster-melkyn {
+    top: 40px;
+}
+
+#roster-teira {
+    top: 110px;
 }
 
 .section-intro {

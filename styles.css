@@ -167,6 +167,10 @@ nav a:hover {
         font-size: 0.9em;
     }
 
+    .list-roster {
+        font-size: 0.9em;  
+    }
+
     .big-bear {
         width: 320px;
         height: 350px;

@@ -76,6 +76,8 @@ nav a:hover {
 
 .list-roster li {
     text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
 }
 
 #roster-melkyn {
@@ -84,11 +86,13 @@ nav a:hover {
 }
 
 #roster-teira {
-    top: 110px;
+    top: 115px;
 }
 
 #roster-myo {
-    top: 180px
+    top: 187px;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
 
 #nav-contact {
@@ -190,11 +194,11 @@ nav a:hover {
     }
 
     #roster-teira {
-        top: 100px;
+        top: 105px;
     }
 
     #roster-myo {
-        top: 163px
+        top: 167px
     }
 
     .big-bear {

@@ -45,7 +45,7 @@ nav li {
 
 nav a {
     cursor: pointer;
-    color: rgb(205, 169, 39);
+    color: white;
     text-decoration: none;
 }
 
@@ -74,12 +74,27 @@ nav a:hover {
     border: 1px solid rgb(205, 169, 39);
 }
 
+.element-roster {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 #roster-melkyn {
+    color: white;
     top: 40px;
 }
 
 #roster-teira {
     top: 110px;
+}
+
+#roster-myo {
+    top: 180px
+}
+
+#nav-contact {
+    color: rgb(205, 169, 39);
 }
 
 .section-intro {
@@ -169,6 +184,19 @@ nav a:hover {
 
     .list-roster {
         font-size: 0.9em;  
+    }
+
+    #roster-teira-img {
+        width: 80px;
+        height: 30px;
+    }
+
+    #roster-teira {
+        top: 100px;
+    }
+
+    #roster-myo {
+        top: 163px
     }
 
     .big-bear {
